@@ -1,0 +1,131 @@
+body {
+	/*Colocar imagem reziseble em relação à resolução*/
+	padding-top: 4%;
+	background-image: url("../imagens/background.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#form1 {
+	margin: auto;
+}
+
+#form2 {
+	margin: auto;
+}
+
+.FormLogin {
+	border-radius: 10px;
+	margin: auto;
+	opacity: 0.75;
+	background-color: #f2f2f2;
+	box-shadow: 0px 0px 50px -5px #0c0c0c;
+	width: 300px;
+	height: 20%;
+	padding: 18px;
+}
+
+#lb_user {
+	font-family: Arial, Sans-Serif;
+	font-size: 18px;
+	color: #000000;
+}
+
+#lb_pass {
+	font-family: Arial, Sans-Serif;
+	font-size: 18px;
+	color: #000000;
+}
+
+input[type=text] {
+	font-family: Arial, Sans-Serif;
+	font-size: 14px;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+input[type=password] {
+	font-family: Arial, Sans-Serif;
+	font-size: 14px;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+#btLogin:hover {
+	background-color: #7a7a7a;
+}
+
+#btRegistar:hover {
+	background-color: #7a7a7a;
+}
+
+#btLogin {
+	font-family: Arial, Sans-Serif;
+	font-size: 14px;
+	width: 100%;
+	background-color: #848484;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#btRegistar {
+	font-family: Arial, Sans-Serif;
+	font-size: 14px;
+	width: 100%;
+	vertical-align: middle;
+	background-color: #848484;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+.copyDiv {
+	font-family: Arial;
+	font-size: 11px;
+	text-align: center;
+}
+
+#linkRegisto {
+	padding-left: 5px;
+	color: #0e54af;
+}
+
+#uploadDiv {
+	text-align: center;
+}
+
+#error {
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	background-color: #b72c2c;
+	box-shadow: 0px 0px 8px 1px #0c0c0c; 
+	width: 300px;
+	height: 20%;
+	border-radius: 7px;
+}
+
+#success {
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	background-color: #1ea027;
+	box-shadow: 0px 0px 8px 1px #0c0c0c; 
+	width: 300px;
+	height: 20%;
+	border-radius: 7px;
+}

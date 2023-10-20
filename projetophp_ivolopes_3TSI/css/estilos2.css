@@ -1,0 +1,183 @@
+body {
+	background-image: url("../imagens/background2.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#header {
+	position: fixed;
+	top: 10px;
+	right: 2px; 
+	left: 2px;
+	background-color: #124a56;
+	box-shadow: 0px 0px 50px -5px black;
+	width: 95%;
+	margin: auto;
+	padding: 15px;
+	border-radius: 10px;
+	font-family: Arial;
+	color: white;
+}
+
+#principal {
+	font-family: Arial;
+	color: black;
+	text-align: center;
+	background-color: #ededed;
+	margin: auto;
+	margin-top: 130px;
+	margin-bottom: 70px;
+	width: 75%;
+	opacity: 0.85;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 60px -20px #1e1e1e;
+}
+
+#principal2 {
+	font-family: Arial;
+	color: black;
+	text-align: center;
+	background-color: #ededed;
+	margin: auto;
+	margin-top: 130px;
+	margin-bottom: 130px;
+	width: 400px;
+	opacity: 0.85;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 60px -20px #1e1e1e;
+}
+
+
+#logout {
+	vertical-align: middle;
+}
+
+#footer {
+	font-family: Arial;
+	font-size: 15px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+	background-color: #124a56;
+	color: white;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	width: 80%;
+	margin-top: 20px;
+}
+
+tr:nth-child(even){background-color: #d1d1d1}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+th {
+	background-color: #212121;
+	color: white;
+}
+
+input[type=text] {
+	font-family: Arial, Sans-Serif;
+	font-size: 14px;
+	width: 70%;
+	padding: 12px 20px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+input[type=password] {
+	font-family: Arial, Sans-Serif;
+	font-size: 14px;
+	width: 70%;
+	padding: 12px 20px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+input[type=number] {
+	font-family: Arial, Sans-Serif;
+	font-size: 14px;
+	width: 70%;
+	padding: 12px 20px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+#bt_editar {
+	padding: 10px;
+	border-radius: 6px;
+	border: none;
+	background-color: #848484;
+	color: white;
+	width: 200px;
+}
+
+#bt_editar:hover {
+	background-color: #7a7a7a;
+}
+
+#error {
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	background-color: #b72c2c;
+	box-shadow: 0px 0px 8px 1px #0c0c0c; 
+	width: 300px;
+	height: 20%;
+	border-radius: 7px;
+}
+
+#myInput {
+	background-image: url('../imagens/search.png');
+	background-position: 10px 6px;
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+	padding-left: 50px;
+	width: 20%;
+	font-size: 16px;
+	border: 1px solid #ddd;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#myInput1 {
+	background-image: url('../imagens/search.png');
+	background-position: 10px 6px;
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+	padding-left: 50px;
+	width: 20%;
+	font-size: 16px;
+	border: 1px solid #ddd;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#myInput2 {
+	background-image: url('../imagens/search.png');
+	background-position: 10px 6px;
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+	padding-left: 50px;
+	width: 20%;
+	font-size: 16px;
+	border: 1px solid #ddd;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
